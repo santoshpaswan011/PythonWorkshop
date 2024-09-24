@@ -1,0 +1,8 @@
+# input from user
+letter = input("Enter a letter: ").lower()
+
+# Check vowel or consonant
+if letter in 'aeiou':
+    print(letter, "is a vowel.")
+else:
+    print(letter, "is not a vowel.")
