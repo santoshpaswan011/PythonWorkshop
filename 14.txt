@@ -1,0 +1,14 @@
+# Function to check multiple variables have the same value
+def check_same_value(*args):
+    if len(set(args)) == 1:
+        print("All variables have the same value.")
+    else:
+        print("The variables have different values.")
+
+# Example variables
+a = 5
+b = 5
+c = 5
+
+# Call the function
+check_same_value(a, b, c)
