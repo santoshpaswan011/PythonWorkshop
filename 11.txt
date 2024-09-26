@@ -1,0 +1,4 @@
+# Sum of the first positive numbers
+n = int(input("Enter a positive number: "))
+total_sum = sum(range(1, n+1))
+print("The sum of the first", n, "positive numbers is:", total_sum)

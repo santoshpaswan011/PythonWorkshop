@@ -1,0 +1,141 @@
+Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+class college "
+SyntaxError: unterminated string literal (detected at line 1)
+class college:
+    def _init_(self,n,loc):
+        self.name = n
+        self.location = loc
+    def info(self):
+        print(self.name + " is located in "+self.location)
+
+        
+class Department(college):
+    def _init_(self,n,ids):
+        self.id = ids
+        self.name = n
+        super() ._init_(n,"Vaishali")
+    def info_d(self):
+        print(self.id+" is department code of "+self.name)
+
+        
+D=Department("105","GEC VAISHALI")
+D.info_d()
+GEC VAISHALI is department code of 105
+class college:
+    def _init_(self,n,loc):
+        self.name = n
+        self.location = loc
+    def info(self):
+        print(self.name + " is located in "+self.location)
+
+
+class Department(college):
+    def _init_(self,n,ids):
+        self.id = ids
+        self.name = n
+        super() ._init_("GEC Vaishali",n)
+    def info_d(self):
+        print(self.id+" is department code of "+self.name)
+
+        
+D=Department("105","CSE")
+D.info_d()
+CSE is department code of GEC Vaishali
+class college:
+    def _init_(self,n,loc):
+        self.name = n
+        self.location = loc
+    def info(self):
+        print(self.name + " is located in "+self.location)
+
+class Department(college):
+    def _init_(self,ids,n):
+        self.id = ids
+        self.name = n
+        super() ._init_("GEC Vaishali",n)
+    def info_d(self):
+        print(self.id+" is department code of "+self.name)
+
+        
+D=Department("105","CSE")
+D.info_d()
+105 is department code of GEC Vaishali
+class college:
+    def _init_(self,n,loc):
+        self.name = n
+        self.location = loc
+    def info(self):
+        print(self.name + " is located in "+self.location)
+
+class Department(college):
+    def _init_(self,ids,n):
+        self.id = ids
+        self.name = n
+        super() ._init_(n,"GEC Vaishali")
+    def info_d(self):
+        print(self.id+" is department code of "+self.name)
+
+        
+D=Department("105","CSE")
+D.info_d()
+105 is department code of CSE
+D.info()
+CSE is located in GEC Vaishali
+
+def sum(a,b):
+    return a+b
+
+num = input("enter two numbers:").split()
+enter two numbers:4 5
+num = int(num)
+Traceback (most recent call last):
+  File "<pyshell#43>", line 1, in <module>
+    num = int(num)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+
+
+def sum(a,b):
+...     return a+b
+... 
+... def subtract(a,b):
+...     return a-b
+... 
+... def multiply(a,b):
+...     return a*b
+... 
+... def power(a,b):
+...     return a**b
+... 
+... def division(a,b):
+...     return a/b
+... 
+... import module1
+... Traceback (most recent call last):
+...   File "<pyshell#61>", line 1, in <module>
+...     import module1
+... ModuleNotFoundError: No module named 'module1'
+... pdw
+... Traceback (most recent call last):
+...   File "<pyshell#62>", line 1, in <module>
+...     pdw
+... NameError: name 'pdw' is not defined. Did you mean: 'pow'?
+... 
+... ========== RESTART: C:/Users/mishr/Desktop/python workshop/module1.py ==========
+... import module1
+... summ = module1.add(5,2)
+... Traceback (most recent call last):
+...   File "<pyshell#64>", line 1, in <module>
+...     summ = module1.add(5,2)
+... AttributeError: module 'module1' has no attribute 'add'
+... summ = module1.sum(3,4)
+... summ
+... 7
+... import module1 as md
+... sub = md.subtract(4,2)
+... sub
+... 2
+... power = md.power(3,2)
+... power
