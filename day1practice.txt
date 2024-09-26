@@ -1,0 +1,139 @@
+Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+import numpy
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    import numpy
+ModuleNotFoundError: No module named 'numpy'
+print("Hello World")
+Hello World
+2+3
+5
+2**4
+16
+"Santosh"*3
+'SantoshSantoshSantosh'
+"san "*4
+'san san san san '
+x=5
+type(5)
+<class 'int'>
+x="san"
+type(san)
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    type(san)
+NameError: name 'san' is not defined
+x="santosh"
+type(x)
+<class 'str'>
+
+================================================== RESTART: C:/Users/rakes/Desktop/PythonWorkshop/firstprogram.py =================================================
+Hello
+World
+
+================================================== RESTART: C:/Users/rakes/Desktop/PythonWorkshop/firstprogram.py =================================================
+Hello
+World
+Hello
+Traceback (most recent call last):
+  File "C:/Users/rakes/Desktop/PythonWorkshop/firstprogram.py", line 4, in <module>
+    prin("World")
+NameError: name 'prin' is not defined. Did you mean: 'print'?
+
+================================================== RESTART: C:/Users/rakes/Desktop/PythonWorkshop/firstprogram.py =================================================
+Hello
+World
+Hello
+Traceback (most recent call last):
+  File "C:/Users/rakes/Desktop/PythonWorkshop/firstprogram.py", line 4, in <module>
+    prin("World")
+NameError: name 'prin' is not defined. Did you mean: 'print'?
+
+================================================== RESTART: C:/Users/rakes/Desktop/PythonWorkshop/firstprogram.py =================================================
+Hello
+World
+Hello
+World
+Santosh
+x=7
+print(x)
+7
+x=input("Enter a Number")
+Enter a Number5
+print(x)
+5
+x,y=input("Enter two number :")
+Enter two number :4 5
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    x,y=input("Enter two number :")
+ValueError: too many values to unpack (expected 2)
+x,y= int (input("Enter a number :").split())
+Enter a number :5 7
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    x,y= int (input("Enter a number :").split())
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+x,y=input("Enter two number :").split()
+Enter two number :2 4
+print(x)
+2
+print(y)
+4
+x+y
+'24'
+x=int(x)
+y=int(y)
+x+y
+6
+x=["Rose","Lotus"]
+print("Rose" in x)
+True
+print("Riya" in x)
+False
+print("Riya" not in x)
+True
+print("Rose" not in x)
+False
+>>> x=6
+>>> y=7
+>>> print(x is y)
+False
+>>> x=y
+>>> print(x is y)
+True
+>>> x="santosh"
+>>> y=7
+>>> print(x is y)
+False
+>>> z="7"
+>>> print(y is z)
+False
+>>> # welcome in python workshop
+>>> #atul sir python padha rhe h
+>>> # kal sunday h fir bhi class h
+>>> 'santosh'
+'santosh'
+>>> "santosh"
+'santosh'
+>>> "santosh
+SyntaxError: unterminated string literal (detected at line 1)
+>>> '''santosh
+... multiline comment
+... string literals
+... conditinal statement
+... '''
+'santosh\nmultiline comment\nstring literals\nconditinal statement\n'
+>>> #python indentation
+>>> if(x=5):
+...     
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+>>> if(x==5):
+...     print("Hello")SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+...     
+SyntaxError: invalid syntax
+>>> x=5
+>>> if(x==5):
+...     print("Hello")
+...     print("GEC VAISHALI")
