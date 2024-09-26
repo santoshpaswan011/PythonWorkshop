@@ -1,0 +1,12 @@
+# Function to find the largest and smallest integers in a list
+def find_largest_smallest(numbers):
+    largest = max(numbers)
+    smallest = min(numbers)
+    print(f"Largest number is: {largest}")
+    print(f"Smallest number is: {smallest}")
+
+# Input from the user as a list of integers
+numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
+
+# Call the function
+find_largest_smallest(numbers)
