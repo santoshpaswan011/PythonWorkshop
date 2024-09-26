@@ -1,0 +1,53 @@
+Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+s=["mon","Tue","wed"]
+type(s)
+<class 'list'>
+s(1)
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    s(1)
+TypeError: 'list' object is not callable
+s.add("Thru")
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    s.add("Thru")
+AttributeError: 'list' object has no attribute 'add'
+>>> # Add element
+... set1 = set([4, 5, (6, 7)])
+... set1.update([10, 11])
+... print("\nSet after Addition of elements using Update: ")
+... print(set1)
+SyntaxError: multiple statements found while compiling a single statement
+>>> KeyboardInterrupt
+>>> 
+... 
+... # Creating a Set
+... String = ('s', 'a', 'n', 't', 'o', 's', 'h')
+... 
+... Fset1 = frozenset(String)
+... print("The FrozenSet is: ")
+... print(Fset1)
+... 
+... # print Empty Frozen Set
+... 
+... print("\nEmpty FrozenSet: ")
+... print(frozenset())
+... 
+SyntaxError: multiple statements found while compiling a single statement
+>>> #dictionary
+>>> D={}
+>>> type(D)
+<class 'dict'>
+>>> D={155:"CSE-IOT",105:"CSE"}
+>>> D.keys()
+dict_keys([155, 105])
+>>> D.values()
+dict_values(['CSE-IOT', 'CSE'])
+>>> D[105]="CSE(iot)"
+>>> D
+{155: 'CSE-IOT', 105: 'CSE(iot)'}
+>>> {155: 'CSE-IOT', 105: 'CSE(iot)'}
+{155: 'CSE-IOT', 105: 'CSE(iot)'}
+>>> D.update(105:"ME"]
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
