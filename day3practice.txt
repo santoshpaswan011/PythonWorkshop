@@ -1,0 +1,54 @@
+Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+radius = float(input("Enter the radius of the circle:"))
+Enter the radius of the circle:
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    radius = float(input("Enter the radius of the circle:"))
+ValueError: could not convert string to float: ''
+radius = float(input("Enter the radius of the circle: "))
+area = 3.14159 * radius ** 2
+print(f"The area of the circle is: {area}")
+SyntaxError: multiple statements found while compiling a single statement
+s="this is string"
+s[5:7]
+'is'
+s[-1:-4]
+''
+>>>  s[-4:-1]
+...  
+SyntaxError: unexpected indent
+>>> s=santosh
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    s=santosh
+NameError: name 'santosh' is not defined
+>>> s= "santosh"
+>>> print(s)
+santosh
+>>> print("santosh")
+santosh
+>>> a = "aroh bhosdiwala chutiya randibaj dogla sala "
+>>> print(a)
+aroh bhosdiwala chutiya randibaj dogla sala 
+>>> print(" Twinle twinkle little star\n How are Wondr what you are\n Up above in the sky\n")
+ Twinle twinkle little star
+ How are Wondr what you are
+ Up above in the sky
+
+>>> l= ["this", 5,4,5,true']
+...     
+SyntaxError: unterminated string literal (detected at line 1)
+>>> l= ["this", 5,4,5,'true']
+...     
+>>> l.pop()
+...     
+'true'
+>>> l.remove(5)
+...     
+>>> t[0]=5
+...     
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    t[0]=5
+NameError: name 't' is not defined
