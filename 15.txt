@@ -1,0 +1,7 @@
+# Function to display a string using double quotes
+def display_message():
+    message = "Hello, this is a string in double quotes!"
+    print(message)
+
+# Call the function
+display_message()
