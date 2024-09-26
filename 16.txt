@@ -1,0 +1,6 @@
+#Input two integers on a single line 
+a, b = map(int, input("Enter two integers separated by space: ").split())
+
+# Display the integers
+print(f"First integer: {a}")
+print(f"Second integer: {b}")
