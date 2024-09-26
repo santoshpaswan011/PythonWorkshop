@@ -1,0 +1,8 @@
+# Display name, age, and address
+name = "Santosh Paswan"
+age = 18
+address = "Muzaffarpur,Bihar"
+
+print("Name:", name)
+print("Age:", age)
+print("Address:", address)
