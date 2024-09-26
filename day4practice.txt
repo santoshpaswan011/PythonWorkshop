@@ -1,0 +1,11 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df=pd.read_csv("Chemistry.csv")
+print(df)
+
+x = df.head().iloc[: ,0]
+y = df.head().iloc[: ,2]
+plt.pie(x,y)
+plt.show()
